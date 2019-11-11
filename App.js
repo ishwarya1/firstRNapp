@@ -25,7 +25,8 @@ import {
 } from 'react-native/Libraries/NewAppScreen';
 
 const App: () => React$Node = () => {
-  console.log('I am a console statement');
+  console.log('Welcome to C308 Lesson 04 quiz!');
+  console.log('Your component here');
   return (
     <>
       <StatusBar barStyle="dark-content" />
@@ -41,29 +42,13 @@ const App: () => React$Node = () => {
           )}
           <View style={styles.body}>
             <View style={styles.sectionContainer}>
-              <Text>Welcome to C308 Web Frameworks!</Text>
-              <Text style={styles.sectionTitle}>Recommended Eats @RP</Text>
-              <Text style={styles.sectionDescription}>
-                <Text style={styles.highlight}>W6 Level 1 , E-canteen
-                </Text>Waffles with chocolate
-                dip, Belgian Waffles, Fruit Fondue, Royal
-              </Text>
-            </View>
-            <View style={styles.sectionContainer}>
-              <Text style={styles.sectionTitle}>ice cream</Text>
-              <Text style={styles.sectionDescription}><Text style={styles.highlight}>E6 Level 1 , E-canteen
-              </Text>This was my first time visiting Holland Village for something other than beer. Surprisingly, I still left extremely happy, full, and a little tipsy! While David manages the operational side of the cafe, his father handles the production of ice-cream.
-              </Text>
-            </View>
-            <View style={styles.sectionContainer}>
-              <Text style={styles.sectionTitle}>Western</Text>
-              <Text style={styles.sectionDescription}><Text style={styles.highlight}>E6 Level 1 , E-canteen
-              </Text>However, whenever my friends and I talk about affordable, value-for-money Western food, Astons is always the first place that comes to mind. However, I’m here to show you that there are plenty of alternatives in our hawker centres that are cheaper (and might even be better) than Astons!
+              <Text style={styles.highlight}>Set Pickup Time</Text>
+              <Text style={styles.sectionDescription}>Set a time you would like to use to arrive at your pickup location
 
-
-                <DebugInstructions />
               </Text>
+                <Text style={styles.highlight}>RP Furniture Shop</Text>
             </View>
+
             <View style={styles.sectionContainer}>
               <Text style={styles.sectionTitle}>Learn More</Text>
               <Text style={styles.sectionDescription}>
